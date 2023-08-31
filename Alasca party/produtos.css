@@ -1,0 +1,42 @@
+.blocos{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 50px;
+}
+
+.bloco1{
+    margin: 30px;
+
+}
+.bloco2{
+    margin: 30px;
+}
+.bloco3{
+    margin: 30px;
+}
+.bloco4{
+    margin: 30px;
+}
+
+.blocos2{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 50px;
+}
+
+.brinquedos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: red;
+}
+
+
+.decoracao{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: blue;
+}
