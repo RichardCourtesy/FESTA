@@ -281,26 +281,16 @@ body {
     display: flex;
     /* justify-content: space-between; */
     margin: 50px;
-}
-
-.bloco1{
-    margin: 30px;
-
-}
-.bloco2{
-    margin: 30px;
-}
-.bloco3{
-    margin: 30px;
-}
-.bloco4{
-    margin: 30px;
+    gap: 40px;
+    margin: 0;
 }
 
 .blocos2{
     display: flex;
     /* justify-content: space-between; */
     margin: 50px;
+    gap: 40px;
+    margin: 0;
 }
 
 .brinquedos{
@@ -308,7 +298,8 @@ body {
     align-items: center;
     text-align: center;
     margin: 20px;
-    color: red;
+    color: rgb(248, 77, 77);
+    
 }
 
 
@@ -317,5 +308,10 @@ body {
     align-items: center;
     text-align: center;
     margin: 20px;
-    color: blue;
+    color: #6f9bf9;
+    gap: 20px;
+}
+
+#produtosContainer{
+    margin-top: 75px;
 }
