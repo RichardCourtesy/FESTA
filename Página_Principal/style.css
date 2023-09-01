@@ -326,6 +326,9 @@ body {
     margin-top: 75px;
 }
 
+.card{
+    background-color: rgb(239, 239, 239);
+}
 
 /* FOOTER */
 #newsletter-container {
