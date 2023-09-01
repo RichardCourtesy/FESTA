@@ -244,3 +244,77 @@ body {
 .qty-info {
     color: #FFF;
 }
+
+/* FOOTER */
+
+#newsletter-container {
+    background-color: #FFDE59;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+    margin-top: 75px;
+}
+
+.footerzin {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*  */
+#news-form {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+/*  */
+#news-form i {
+    font-size: 1.5em;
+}
+
+/*  */
+#news-form .btn {
+    color: #000000;
+}
+
+/*  */
+#social-container {
+    margin: 20px auto;
+}
+
+/*  */
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #000000;
+    transition: .3s;
+}
+
+/*  */
+#social-container i:hover {
+    color: #6f9bf9;
+}
+
+/*  */
+/*  */
+
+/*  */
+#copy-container {
+    text-align: center;
+    padding: 30px;
+}
+
+#LetraP {
+    color: #000000;
+}
+
+.form-control::placeholder {
+    color: #000000 !important;
+
+}
+
+footer{
+    height: 90px;
+}
