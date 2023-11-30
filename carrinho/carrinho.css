@@ -1,0 +1,444 @@
+/*Header*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito'
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: auto;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background: #95bafe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    width: 161px;
+    height: 94px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 114px;
+    width: 1091px;
+    height: 54px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 1265px;
+    height: 94px;
+}
+
+nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 755px;
+    height: 36px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+nav a:hover {
+    background-color: #234C8A;
+    color: #E0CD80;
+    border-radius: 5px;
+}
+
+nav li img {
+    width: 35px;
+    height: 35px;
+}
+
+.topde {
+    
+position: absolute;
+width: 344.72px;
+height: 63px;
+left: 47px;
+top: 142px;
+filter: drop-shadow(0px 4px 4px rgba(0, 41, 255, 0.5));
+background-color: #95bafe;
+}
+/* ____________________________________________________________________________________________ */
+/*Pacotes*
+
+/* ARRUMAR ISSO AQUIIII */
+
+.topde p {
+    display: flex;
+    /* position: absolute; */
+    width: 288px;
+    height: 38px;
+    left: 77px;
+    top: 156px;
+    text-align: center;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-left: 45px;
+    margin-top: auto;
+    justify-content: space-around;
+    
+
+}
+
+.topde a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+/* FUNDO AZUL */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+
+
+/* "FAÇA O LOGIN [FRASE NO TOPO]" */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+.intro{
+    margin-left: 100px;
+}
+
+/* AJUSTA AS CAIXAS DE PERGUNTAS */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+form label {
+    margin-left: 10px;
+}
+
+/* BOTÃO DE LOGIN */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+.entrar{
+    margin-left: 12px;
+}
+
+/* CARRINHO DE COMPRA */
+/*-- ___________________________________________________________________________________________________________________________ */
+
+.compra {
+    width: 35px;
+    height: 35px;
+}
+
+/* opção criar conta embaixo do login */
+.link {
+    color: blue;
+    margin-left: 125px;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* ________________________________________________________________________________________________________________________ */
+ /* FOOTER */
+
+ footer {
+    background-color: #234C8A;
+    padding: 50px 0;
+ }
+
+ .container-footer {
+    max-width: auto;
+    padding: 0 4%;
+    margin: auto;
+    
+ }
+
+ .row-footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+
+ .col-footer {
+    width: 25%;
+    padding: 0 15px;
+ }
+
+ .col-footer img {
+    width: 250px;
+    height: auto;
+    max-width: 500px;
+    margin-right: 200px;
+    margin-top: -40px;
+ }
+
+ .col-footer h4 {
+    font-size: 20px;
+    color: #E0CD80;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .col-footer ul {
+    list-style: none;
+ }
+
+ .col-footer ul li {
+    margin: 10px 0;
+
+ }
+
+ .col-footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0CD80;
+    transition: all 0.3s ease;
+ }
+
+.col-footer ul li a:hover {
+    color: #E0CD80;
+    padding-left: 5px;
+}
+.direitos {
+    position: absolute;
+    bottom: -850px; 
+    width: 100%;
+    text-align: center;
+    line-height: 100px; 
+    color: #E0CD80;
+}
+  
+/* ________________________________________ */
+
+ .cart-page {
+    margin: 80px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #234C8A;
+    font-weight: normal;
+}
+td {
+    padding: 10px 5px;
+    margin-right: 500px;
+}
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 400px;
+}
+td a {
+    color: #1D3B5E;
+    font-size: 12px;
+}
+.subtotais{
+    margin-right: 100px;
+}
+
+.valor {
+    margin-right: -500px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+}
+.total-price table {
+    border-top: 3px solid #1D3B5E;
+    width: 100%;
+    max-width: 400px;
+    
+}
+td:last-child {
+    text-align: right;
+}
+th:last-child {
+    text-align: right;
+}
+
+/* _____________________________________________________________ */
+/* Métodos de pagamento e Subtotais (Página Pagamentos) */
+
+.container-pag {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-left: 1px;
+    padding: 30px 5px;
+}
+.container-pag h4 {
+    color: #1D3B5E;
+    padding-bottom: 20px;
+
+}
+
+.parte {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.parte input[type="radio"] {
+    margin-right: 10px;
+}
+
+.parte label {
+    margin-right: 20px;
+    text-align: left;
+}
+
+.iconify {
+    padding: 0 10px;
+}
+
+tr td div img {
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+
+.pacote {
+    padding: 50px;
+    margin-left: -40px;
+}
+
+
+div input[type=submit] {
+    
+    background-color:cornflowerblue ;
+    color:#ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1250px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
+
+div input:hover[type=submit] {
+    
+    background-color:#1D3B5E ;
+    color:#E0CD80;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1250px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
+
+hr {
+    width: 234%;
+    margin-left: 00%;
+}
+
+/* FOOTER */
+
+#newsletter-container {
+    background-color: #FFDE59;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+    margin-top: 75px;
+}
+
+.footerzin {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*  */
+#news-form {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+/*  */
+#news-form i {
+    font-size: 1.5em;
+}
+
+/*  */
+#news-form .btn {
+    color: #000000;
+}
+
+/*  */
+#social-container {
+    margin: 20px auto;
+}
+
+/*  */
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #000000;
+    transition: .3s;
+}
+
+/*  */
+#social-container i:hover {
+    color: #6f9bf9;
+}
+
+/*  */
+/*  */
+
+/*  */
+#copy-container {
+    text-align: center;
+    padding: 30px;
+}
+
+#LetraP {
+    color: #000000;
+}
+
+.form-control::placeholder {
+    color: #000000 !important;
+
+}
+
+footer{
+    height: 90px;
+}
