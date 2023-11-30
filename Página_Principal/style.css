@@ -223,7 +223,6 @@ body {
 
 /* BANNERS */
 
-
 #banners-container {
     padding: 0;
 }
@@ -247,8 +246,8 @@ body {
     /*  */
     #slider .carousel-item,
     #slider img {
-        height: 500px;
-        width: 95%;
+        height: 520px;
+        width: 80%;
     }
 
     /*  */
