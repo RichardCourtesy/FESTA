@@ -1,72 +1,76 @@
-
-/*brinquedos*/
-
-
-/* ________________________________________________________________________________________________________________________ */
- /* FOOTER */
-
-
- .container-footer {
-    max-width: auto;
-    padding: 0 4%;
-    margin: auto;
-    
- }
-
- .row-footer {
-    display: flex;
-    /* flex-wrap: wrap; */
- }
-
- .col-footer {
-    width: 25%;
-    padding: 0 15px;
- }
-
- .col-footer img {
-    width: 250px;
-    height: auto;
-    max-width: 500px;
-    margin-right: 200px;
-    margin-top: -40px;
- }
-
- .col-footer h4 {
-    font-size: 20px;
-    color: #E0CD80;
-    margin-bottom: 20px;
-    position: relative;
- }
-
- .col-footer ul {
-    list-style: none;
- }
-
- .col-footer ul li {
-    margin: 10px 0;
-
- }
-
- .col-footer ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: #E0CD80;
-    transition: all 0.3s ease;
- }
-
-.col-footer ul li a:hover {
-    color: #E0CD80;
-    padding-left: 5px;
-}
-.direitos {
-    position: absolute;
-    bottom: -850px; 
-    width: 100%;
+#newsletter-container {
+    background-color: #FFDE59;
+    border-bottom: 1px solid #000000;
     text-align: center;
-    line-height: 100px; 
-    color: #E0CD80;
+    padding: 20px;
+    height: 350px;
+    margin-top: 75px;
 }
-  
+
+.footerzin {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*  */
+#news-form {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+/*  */
+#news-form i {
+    font-size: 1.5em;
+}
+
+/*  */
+#news-form .btn {
+    color: #000000;
+}
+
+/*  */
+#social-container {
+    margin: 20px auto;
+}
+
+/*  */
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #000000;
+    transition: .3s;
+}
+
+/*  */
+#social-container i:hover {
+    color: #6f9bf9;
+}
+
+/*  */
+/*  */
+
+/*  */
+#copy-container {
+    text-align: center;
+    padding: 30px;
+}
+
+#LetraP {
+    color: #000000;
+}
+
+.form-control::placeholder {
+    color: #000000 !important;
+
+}
+
+footer{
+    height: 90px;
+}
+
+
 /* ________________________________________ */
 
  .cart-page {
