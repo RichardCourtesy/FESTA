@@ -1,3 +1,28 @@
+<?php 
+    include_once("../config/db_conn.php");
+
+
+    if (isset($_POST['email'], $_POST['senha'])) {
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+
+        $sql = "SELECT * FROM cadastro WHERE email = '$email' AND senha = '$senha'";
+        
+        $result = mysqli_query($conn, $sql);
+
+        
+
+    if ($result->num_rows == 0) {
+        echo "Failed: Falha ao acessar sua conta " . mysqli_error($conn);
+        } else {   
+            header("Location: Cadastro/cadastro.php?msg=Sucesso!");
+        }
+
+    
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,13 +42,13 @@
         <div class="row align-items-center gx-5">
             <div class="col-md-6 order-md-2">
                 <h2><i class="bi bi-balloon"></i>Faça seu login</h2>
-                <form>
+                <form action="Login.php" method="post">
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
-                        <label for="email" class="form-label">Digite seu email</label>
+                        <label for="email" class="form-label">Digite seu email </label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                        <input type="password" class="form-control" id="password" name="senha" placeholder="Digite sua senha">
                         <label for="password" class="form-label">Digite sua senha</label>
                     </div>
                     <input type="submit" class="btn btn-primary" value="Entrar">
@@ -34,7 +59,7 @@
                     <img src="../IMG/Bolo.png" alt="Computador login" class="img-fluid">
                 </div>
                 <div class="col-12" id="link-container">
-                    <a href="../Cadastro/Cadastro.html"><i class="bi bi-exclamation-circle-fill"></i>Ainda não tenho cadastro</a>
+                    <a href="../Cadastro/Cadastro.php"><i class="bi bi-exclamation-circle-fill"></i>Ainda não tenho cadastro</a>
                 </div>
             </div>
         </div>
