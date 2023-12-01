@@ -301,7 +301,7 @@ body {
     text-align: center;
     margin: 20px;
     color: #6f9bf9;
-
+    font-weight: bold;
 }
 
 
@@ -311,6 +311,7 @@ body {
     text-align: center;
     margin: 20px;
     color: #6f9bf9;
+    font-weight: bold;
     gap: 20px;
 }
 
