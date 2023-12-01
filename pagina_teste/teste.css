@@ -218,6 +218,7 @@ body {
     margin-left: px;
 }
 
+
 /* ___________________________________________ */
 /* Estilos para a barra de navegação (navbar)*/
 
@@ -367,19 +368,9 @@ body {
 #banners-container {
     padding: 0;
 }
+ /* _____________________________________________________________________________________ */
+/* Posicionamento espaçamento para a legenda do carousel */
 
-/* Posicionamento eespaçamento para a legenda do carousel */
-.carousel-caption {
-    bottom: 5em;
-    padding: 1em;
-    left: 12%;
-    right: 12%;
-}
-
-/* Estilos para o titulo na legenda do carousel */
-.carousel-caption h5 {
-    font-size: 1.8em;
-}
 
 /* Media query para telas com largura minima de 768px */
 @media(min-width: 768px) {
