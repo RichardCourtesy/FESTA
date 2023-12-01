@@ -3,7 +3,7 @@ body {
 }
 
 #form-container {
-    background-image: url("../IMG/fundo.jpg");
+    background-image: url("./IMG/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
