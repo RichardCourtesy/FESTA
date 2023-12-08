@@ -1,0 +1,530 @@
+
+/*brinquedos*/
+
+
+/* ________________________________________________________________________________________________________________________ */
+ /* FOOTER */
+
+
+ .container-footer {
+    max-width: auto;
+    padding: 0 4%;
+    margin: auto;
+    
+ }
+
+ .row-footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+
+ .col-footer {
+    width: 25%;
+    padding: 0 15px;
+ }
+
+ .col-footer img {
+    width: 250px;
+    height: auto;
+    max-width: 500px;
+    margin-right: 200px;
+    margin-top: -40px;
+ }
+
+ .col-footer h4 {
+    font-size: 20px;
+    color: #E0CD80;
+    margin-bottom: 20px;
+    position: relative;
+ }
+
+ .col-footer ul {
+    list-style: none;
+ }
+
+ .col-footer ul li {
+    margin: 10px 0;
+
+ }
+
+ .col-footer ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0CD80;
+    transition: all 0.3s ease;
+ }
+
+.col-footer ul li a:hover {
+    color: #E0CD80;
+    padding-left: 5px;
+}
+.direitos {
+    position: absolute;
+    bottom: -850px; 
+    width: 100%;
+    text-align: center;
+    line-height: 100px; 
+    color: #E0CD80;
+}
+  
+/* ________________________________________ */
+
+ .cart-page {
+    margin:0px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+th {
+    text-align: left;
+    padding: 10px;
+    color: #fff;
+    background: #6f9bf9;
+    font-weight: 20px;
+}
+td {
+    padding: 20px 5px;
+    margin-right: 400px;
+}
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 400px;
+}
+td a {
+    color: #6f9bf9;
+    font-size: 20px;
+}
+.subtotais{
+    margin-right: 100px;
+}
+
+.valor {
+    margin-right: -400px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+}
+.total-price table {
+    border-top: 3px solid #6f9bf9;
+    width: 100%;
+    max-width: 400px;
+    
+}
+td:last-child {
+    text-align: right;
+}
+th:last-child {
+    text-align: right;
+}
+
+/* _____________________________________________________________ */
+/* Métodos de pagamento e Subtotais (Página Pagamentos) */
+
+.container-pag {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-left: 1px;
+    padding: 30px 5px;
+}
+.container-pag h4 {
+    color: #6f9bf9;
+    padding-bottom: 20px;
+
+}
+
+.parte {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.parte input[type="radio"] {
+    margin-right: 10px;
+}
+
+.parte label {
+    margin-right: 20px;
+    text-align: left;
+}
+
+.iconify {
+    padding: 0 10px;
+}
+
+tr td div img {
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+
+.pacote {
+    padding: 50px;
+    margin-left: -40px;
+}
+
+
+div input[type=submit] {
+    
+    background-color:cornflowerblue ;
+    color:#ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1250px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
+
+div input:hover[type=submit] {
+    
+    background-color:#6f9bf9 ;
+    color:#E0CD80;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 1250px;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
+
+hr {
+    width: 234%;
+    margin-left: 00%;
+}
+
+/* FOOTER */
+#newsletter-container {
+    background-color: #FFDE59;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+    margin-top: 75px;
+}
+
+.footerzin {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*  */
+#news-form {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+/*  */
+#news-form i {
+    font-size: 1.5em;
+}
+
+/*  */
+#news-form .btn {
+    color: #000000;
+}
+
+/*  */
+#social-container {
+    margin: 20px auto;
+}
+
+/*  */
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #000000;
+    transition: .3s;
+}
+
+
+#social-container i:hover {
+    color: #6f9bf9;
+}
+
+/*  */
+/*  */
+
+/*  */
+#copy-container {
+    text-align: center;
+    padding: 30px;
+}
+
+#LetraP {
+    color: #000000;
+}
+
+.form-control::placeholder {
+    color: #000000 !important;
+
+}
+
+footer{
+    height: 90px;
+}
+
+
+.brinquedos h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.brinquedos p {
+    font-weight: bold;
+}
+
+.valor {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -60px;
+    margin-top: 75px;
+}
+
+
+.total-price {
+    font-size: 20px;
+}
+
+
+
+/* header */
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  */
+body {
+    background-color: #ffffff;
+    color: #FFF;
+}
+
+/*  */
+.primary-bg-color {
+    background-color: #252525;
+}
+
+.destaque {
+    background-color: #6f9bf9;
+}
+
+.secondary-bg-color {
+    background-color: #FFDE59;
+}
+
+.light-bg-color {
+    background-color: #FCF5EB;
+}
+
+.dark-bg-color {
+    background-color: #0D0D0D;
+}
+
+/*  */
+.primary-color {
+    color: #000000;
+}
+
+.secondary-color {
+    color: #F2F2F2;
+}
+
+.light-color {
+    color: #FCF5EB;
+}
+
+/*  */
+/*  */
+
+/*  */
+#navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*  */
+#navbar .navbar-nav li {
+    margin-left: 1em;
+}
+
+/*  */
+#navbar a,
+#navbar button {
+    color: #FFF;
+}
+
+#navbar button {
+    color: #000000;
+}
+
+
+/*  */
+#navbar li {
+    position: relative;
+}
+
+/*  */
+#navbar i {
+    font-size: 20px;
+}
+
+/*  */
+#navbar i:hover {
+    color: #000000;
+}
+
+/*  */
+#navbar span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EF3636;
+    text-align: center;
+}
+
+/*  */
+#bag-item span {
+    left: 20px;
+}
+
+/*  */
+.navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.nome_logo {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+
+/*  */
+
+.sobre a {
+    color: #000000 !important;
+}
+
+
+.sobre a:hover {
+    color: #fff !important;
+    /* Importante para sobrepor outros estilos */
+}
+
+/*  */
+@media(min-width: 768px) {
+    .navbar-brand {
+        text-align: left;
+    }
+}
+
+/*  */
+#navbar-items {
+    justify-content: space-evenly;
+
+}
+
+/*  */
+@media(min-width: 768px) {
+    #navbar-items {
+        display: flex;
+        min-width: 80%;
+    }
+}
+
+/*  */
+#search-form,
+#news-form {
+    width: 100%;
+    margin: 2em 0;
+}
+
+/*  */
+@media(min-width: 768px) {
+
+    #search-form,
+    #news-form {
+        width: 50%;
+        margin: 0;
+    }
+}
+
+/*  */
+#search-form,
+#news-form {
+    border: 2px solid #F2F2F2;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+/*  */
+#search-form input,
+#news-form input {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+}
+
+/*  */
+#search-form input:focus,
+#news-form input:focus {
+    box-shadow: none;
+}
+
+/*  */
+#search-form input::placeholder,
+#news-form input::placeholder {
+    color: #FFF;
+}
+
+/*  */
+/*  */
+
+/*  */
+#bottom-navbar-container .container {
+    justify-content: flex-end;
+}
+
+/*  */
+#bottom-navbar-container a {
+    color: #FFF;
+    font-weight: 600;
+}
+
+/*  */
+.navbar-toggler {
+    font-size: 1.5em;
+}
+
+.icones-header {
+    margin-left: px;
+}
+
